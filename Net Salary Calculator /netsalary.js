@@ -17,13 +17,13 @@ function individualNetSalary(basicSalary, benefits) {
     return 'Invalid monthly pay';
   }
 
-  //calculate payee value
-  const payee = taxRate;
-  console.log(`Payee: ${payee}`);
-
   //calculate gross salary value
   const grossSalary = basicSalary + benefits;
   console.log(`Gross Salary: ${grossSalary}`);
+
+  //calculate payee value
+  const payeeTax = grossSalary * taxRate;
+  console.log(`Payee tax: ${payeeTax}`);
 
   //NHIF DEDUCTIONS
   let deduction;
@@ -73,7 +73,7 @@ function individualNetSalary(basicSalary, benefits) {
   console.log(`NSSF deduction: ${nssfDeduction}`);
 
   // Calculate net salary
-  const netSalary = grossSalary - payee - nhifDeduction - nssfDeduction;
+  const netSalary = grossSalary - payeeTax - nhifDeduction - nssfDeduction;
   console.log(`Net salary: ${netSalary}`);
 }
 
