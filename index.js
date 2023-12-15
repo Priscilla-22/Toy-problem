@@ -12,8 +12,10 @@ function gradeCalculator() {
     return 'C';
   } else if (marks >= 40 && marks <= 49) {
     return 'D';
-  } else {
+  } else if (marks <= 40 && marks >= 0) {
     return 'E';
+  } else {
+    return 'Invalid marks';
   }
 }
 
