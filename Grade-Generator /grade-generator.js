@@ -1,5 +1,5 @@
 /* Challenge 1:
- Student Grade Generator */
+     Student Grade Generator */
 const marks = prompt('Enter your marks: ');
 const grade = gradeCalculator(marks);
 
@@ -21,3 +21,12 @@ function gradeCalculator() {
 
 const result = grade;
 console.log(`Your garde is: ${result}`);
+
+
+
+
+/* Challenge 3: 
+         Net Salary Calculator*/
+function individualNetSalary(basicSalary, benefits) {
+             
+         }
