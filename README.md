@@ -4,7 +4,7 @@
 
 1. Create a repository on your GitHub account. 
 
-* [NB]: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution.
+* *NB*: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution.
 
 2. Use JavaScript to wire down the solution.
 
@@ -13,8 +13,9 @@
 4. Submit the repository link for grading.
 
 5. Ensure your repository has a well written README.
+<br>
 
-* [NOTE: You are required to complete ALL the challenges.]
+* *NOTE*: You are required to complete ALL the challenges.]
 
  
 
@@ -38,13 +39,16 @@
 
 * Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
-[NB]: Use KRA, NHIF, and NSSF values provided in the link below.
+*NB*: Use KRA, NHIF, and NSSF values provided in the link below.
+<br>
 
-[id]: https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
+[1]: https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
+<br>
 
-[id]: Links to an external site.-  Links to an external site.Links to an external site.
+[2]: Links to an external site.-  Links to an external site.Links to an external site.
+<br>
 
-[id]:  www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
+[3]:  www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 
 
 ### Extra Practice Questions:
@@ -77,7 +81,7 @@ e.g steps(2)  #
 3. Conditional statements
 
 
-#### (Objects)
+##### (Objects)
 3. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
 Volume of a cylinder : V = πr2h where r is the radius and h is the height of the cylinder.
 
