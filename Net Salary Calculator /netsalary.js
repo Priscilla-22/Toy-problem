@@ -77,4 +77,4 @@ function individualNetSalary(basicSalary, benefits) {
   console.log(`Net salary: ${netSalary}`);
 }
 
-individualNetSalary(50000, 20000);
+individualNetSalary(59000, 4500);
