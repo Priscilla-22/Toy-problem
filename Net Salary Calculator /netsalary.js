@@ -5,7 +5,7 @@ function individualNetSalary(basicSalary, benefits) {
   let taxRate;
   if (basicSalary <= 2400) {
     taxRate = 0.01;
-  } else if (basicSalary >= 24001 && basicSalary <= 32333) {
+  } else if (basicSalary >= 2401 && basicSalary <= 32333) {
     taxRate = 0.25;
   } else if (basicSalary >= 32334 && basicSalary <= 500000) {
     taxRate = 0.03;
@@ -16,14 +16,14 @@ function individualNetSalary(basicSalary, benefits) {
   } else {
     return 'Invalid monthly pay';
   }
-  
+
+  //calculate payee value
+  const payee = taxRate;
+  console.log(`Payee: ${payee}`);
+
   //calculate gross salary value
   const grossSalary = basicSalary + benefits;
-    console.log(`Gross Salary: ${grossSalary}`);
-    
-  //calculate payee value
-  const payee = grossSalary * taxRate;
-  console.log(`Payee: ${payee}`);
+  console.log(`Gross Salary: ${grossSalary}`);
 
   //NHIF DEDUCTIONS
   let deduction;
@@ -65,7 +65,7 @@ function individualNetSalary(basicSalary, benefits) {
     return 'Invalid gross salary';
   }
   //calculate deduction value
-  const nhifDeduction = grossSalary - deduction;
+  const nhifDeduction = deduction;
   console.log(`NHIF deduction: ${nhifDeduction}`);
 
   //NSSF deductions
