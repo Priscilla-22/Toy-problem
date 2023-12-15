@@ -42,6 +42,8 @@
 *NB*: Use KRA, NHIF, and NSSF values provided in the link below.
 <br>
 
+
+
 [1]: https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
 <br>
 
@@ -50,14 +52,14 @@
 
 [3]:  www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 
-
+-----------------------------------------------------------
 ### Extra Practice Questions:
 
 #### (BubbleSort)
-1. Write a function that takes an array of numbers as input. It should output an array of those same numbers sorted from lowest to highest.
+* Write a function that takes an array of numbers as input. It should output an array of those same numbers sorted from lowest to highest.
 
-. sample input = [5,6,1,3,4,2]
-. Expected output = [1,2,3,4,5,6]
+> sample input = [5,6,1,3,4,2] <br>
+> Expected output = [1,2,3,4,5,6]
 
 #### Research Areas: 
 1. Loops 
@@ -66,9 +68,11 @@
 
 ##### (Loops)
 2. Staircase problem 
-> Create a function that takes an integer and console logs a step shaped stair with the integer levels using the # character 
+* Create a function that takes an integer and console logs a step shaped stair with the integer levels using the # character 
 
-e.g steps(2)  #
+e.g 
+
+    steps(2)  #
               ##
 
     steps(3)  #
@@ -82,7 +86,7 @@ e.g steps(2)  #
 
 
 ##### (Objects)
-3. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
+* 3. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
 Volume of a cylinder : V = πr2h where r is the radius and h is the height of the cylinder.
 
 #### Research Areas 
