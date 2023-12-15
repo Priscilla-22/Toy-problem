@@ -21,12 +21,4 @@ function gradeCalculator() {
 
 const result = grade;
 console.log(`Your garde is: ${result}`);
-
-
-
-
-/* Challenge 3: 
-         Net Salary Calculator*/
-function individualNetSalary(basicSalary, benefits) {
-             
-         }
+gradeCalculator(80);
