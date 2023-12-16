@@ -4,6 +4,8 @@ function speedDetector(speed) {
   
   const speedLimit = 70;
   const pointsAboveSpeedLimit = 5;
+
+  //calculates the demerit points for every 5 km/s above the speed limit
   const demeritPoints = (speed - speedLimit) / pointsAboveSpeedLimit;
 
   if (speed <= speedLimit) {
