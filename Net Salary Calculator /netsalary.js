@@ -64,6 +64,7 @@ function individualNetSalary(basicSalary, benefits) {
   } else {
     return 'Invalid gross salary';
   }
+  
   //calculate deduction value
   const nhifDeduction = deduction;
   console.log(`NHIF deduction: ${nhifDeduction}`);

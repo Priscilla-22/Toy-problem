@@ -1,9 +1,10 @@
 /* Challenge 1:
      Student Grade Generator */
-const marks = prompt('Enter your marks: ');
-const grade = gradeCalculator(marks);
 
-function gradeCalculator() {
+     //prompt for the user to key in their marks
+const marks = prompt('Enter your marks: ');
+
+function gradeCalculator(marks) {
   if (marks >= 80 && marks <= 100) {
     return 'A';
   } else if (marks >= 60 && marks <= 79) {
@@ -19,6 +20,8 @@ function gradeCalculator() {
   }
 }
 
-const result = grade;
-console.log(`Your garde is: ${result}`);
-gradeCalculator(80);
+/* grade returned depending on the marks entered in the prompt
+can use the prompt in the console or key in the marks on the invoked function declared by grade */
+const grade = gradeCalculator(marks);
+console.log(`Your garde is: ${grade}`);
+
