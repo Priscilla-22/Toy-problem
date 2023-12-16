@@ -1,7 +1,7 @@
 /* Challenge 1:
      Student Grade Generator */
 
-     //prompt for the user to key in their marks
+//prompt for the user to key in their marks
 const marks = prompt('Enter your marks: ');
 
 function gradeCalculator(marks) {
@@ -21,7 +21,7 @@ function gradeCalculator(marks) {
 }
 
 /* grade returned depending on the marks entered in the prompt
-can use the prompt in the console or key in the marks on the invoked function declared by grade */
+ You can use the prompt in the console or provide a value for the 'marks' variable when invoking the gradeCalculator function.
+ */
 const grade = gradeCalculator(marks);
-console.log(`Your garde is: ${grade}`);
-
+console.log(`Your grade is: ${grade}`);
